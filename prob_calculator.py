@@ -93,11 +93,11 @@ def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
 
 #### 1
 
-# hat = Hat(yellow=5, blue=2, red=1)
-# probability = experiment(hat = hat,expected_balls={"yellow":1,"red":1}, num_balls_drawn=4,
-#                   num_experiments=10000)
+hat = Hat(yellow=5, blue=2, red=1)
+probability = experiment(hat = hat,expected_balls={"yellow":1,"red":1}, num_balls_drawn=4,
+                  num_experiments=10000)
 
-# print(probability)
+print(probability)
 
 #### 2
 
